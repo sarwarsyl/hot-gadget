@@ -1,3 +1,89 @@
-.bg-light {
-     background-color: transparent;
+body{
+     font-family: 'Poppins', sans-serif;
+}  
+p{
+     color: #898989;
+     font-size: 13px;
 }
+a{
+     text-decoration: none;
+     color: #FFA530;
+}
+a:hover
+  {
+     color: #FFA530;
+    text-decoration:none;
+    cursor:pointer;
+   }
+
+.phone{
+     margin-top: 100px;
+     margin-bottom: 100px;
+}
+.laptop, .category{
+     margin-bottom: 100px;
+}
+.buy-now-button{
+     background-color: #000;
+     color:#fff;
+     border:none;
+     border-radius: 8px;
+     padding: 9px 25px;
+     cursor: pointer;
+ }
+ .carousel-indicators .active{
+     background-color: #FFBC24;
+     width: 30px;
+     height: 12px;
+     border-radius: 100%;
+ }
+ .carousel-indicators li{
+      background-color: gray;
+      width: 10px;
+      height: 12px;
+      border-radius: 100%;
+ }
+ .carousel-indicators {
+     
+     bottom: -80px;
+     
+ }
+ .card-deck{
+      margin-top: 30px;
+ }
+ .card{
+     border: none;
+     border-radius: 10px;
+     box-shadow: 5px 5px 10px lightgray;
+     text-align: center;
+ }
+ .category h2{
+      text-align: center;
+      position: relative;
+      margin-bottom: 80px;
+ }
+ .category h2:after{
+     content: "";
+     top: 50px;
+     left: 510px;
+     background-color: #FFA530;
+     width: 80px;
+     height: 8px;
+     position: absolute;
+     border-radius: 5px;
+ }
+ .categories-larg img{
+     width: 100%;
+ }
+ .white-bg img{
+     background-color: #fff;
+     box-shadow: 5px 5px 10px lightgray;
+     padding: 30px 30px;
+     border-radius: 20px 0 20px 0;
+ }
+ .seperator{
+      margin-bottom: 30px;
+ }
+ footer{
+     text-align: center;
+ }
